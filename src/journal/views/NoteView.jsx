@@ -10,7 +10,7 @@ export const NoteView = () => {
             direction="row"
             justifyContent="space-between"
             alignItems="center"
-            sx={{ mb: 1 }}
+            sx={{ mb: 3 }}
         >
             <Grid item
             >
@@ -43,8 +43,9 @@ export const NoteView = () => {
                     minRows={5}
                 />
 
-                <ImageGallery />
             </Grid>
+
+            <ImageGallery />
         </Grid>
     )
 }
